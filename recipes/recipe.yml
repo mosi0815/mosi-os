@@ -25,6 +25,12 @@ modules:
   #     packages:
   #       - micro
   #       - starship
+  - type: dnf
+    install:
+      packages:
+        - micro
+
+
   #   remove:
   #     packages:
   #       # example: removing firefox (in favor of the flatpak)
