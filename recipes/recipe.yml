@@ -29,7 +29,9 @@ modules:
     install:
       packages:
         - hplip-gui
-
+  - type: script
+    scripts:
+      - install.sh
 
   #   remove:
   #     packages:
