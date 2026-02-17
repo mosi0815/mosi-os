@@ -33,6 +33,7 @@ modules:
       packages:
         - hplip-gui
         - mullvad-vpn
+        - micro
   - type: script
     scripts:
       - install.sh
