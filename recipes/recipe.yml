@@ -26,9 +26,13 @@ modules:
   #       - micro
   #       - starship
   - type: dnf
+    repos:
+      files:
+        - https://repository.mullvad.net/rpm/stable/mullvad.repo
     install:
       packages:
         - hplip-gui
+        - mullvad-vpn
   - type: script
     scripts:
       - install.sh
